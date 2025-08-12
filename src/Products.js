@@ -4,7 +4,7 @@ const products = [
   { title: 'Apple', isFruit: true, id: 3 },
 ];
 
-export default function Products() {
+function Products() {
   const listItems = products.map(product =>
     <li
       key={product.id}
@@ -20,3 +20,4 @@ export default function Products() {
     <ul>{listItems}</ul>
   );
 }
+export default Products;

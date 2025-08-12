@@ -1,8 +1,9 @@
 /* Reset and base styles */
 * {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   box-sizing: border-box;
+  
 }
 
 .App {
@@ -11,6 +12,7 @@
   color: #333;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
+  padding-left: 20px;
 }
 
 /* Props Demo Container */

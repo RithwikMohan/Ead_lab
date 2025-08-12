@@ -5,6 +5,7 @@ import Profile from './Profile';
 import AdminPanel from './AdminPanel';
 import LoginForm from './LoginForm';
 import Products from './Products';
+import MyButton from './MyButton';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       {isLoggedIn ? <AdminPanel /> : <LoginForm />}
       <Profile name="Rithwik" age={19} />
       <Products />
+      <MyButton/>
     </div>
   );
 }
