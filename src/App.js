@@ -6,6 +6,7 @@ import AdminPanel from './AdminPanel';
 import LoginForm from './LoginForm';
 import Products from './Products';
 import MyButton from './MyButton';
+import JobFilter from './JobFilter';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Profile name="Rithwik" age={19} />
       <Products />
       <MyButton/>
+      <JobFilter />
     </div>
   );
 }
